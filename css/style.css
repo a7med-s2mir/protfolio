@@ -244,8 +244,8 @@ body {
 .header .bootstrap img {
     width: 60px !important;
     height: 60px !important;
-    bottom: -10px;
-    left: 100px;
+    top: 280px;
+    left: 50px;
     border-radius: 50%;
     animation: grow-and-shrink 2000ms;
     animation-iteration-count: infinite;
@@ -267,8 +267,8 @@ body {
 .header .html img {
     width: 60px;
     height: 60px;
-    top: 10px;
-    right: 100px;
+    top:-60px;
+    right: 180px;
     animation: grow-and-shrink 3500ms;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
@@ -290,8 +290,8 @@ body {
     position: absolute;
     width: 60px !important;
     height: 60px !important;
-    bottom: 10px;
-    right: 90px;
+    bottom: -50px;
+    right: 150px;
     border-radius: 50%;
     animation: grow-and-shrink 2000ms;
     animation-iteration-count: infinite;
@@ -302,8 +302,8 @@ body {
     position: absolute;
     width: 60px !important;
     height: 60px !important;
-    bottom: -70px;
-    left: 250px;
+    bottom: -10px;
+    left: 100px;
     border-radius: 50%;
     animation: grow-and-shrink 3500ms;
     animation-iteration-count: infinite;
@@ -326,7 +326,40 @@ body {
     position: absolute;
     width: 60px !important;
     height: 60px !important;
-    top: 140px;
+    bottom:-70px;
+    left: 300px;
+    border-radius: 50%;
+    animation: grow-and-shrink 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.header .php img {
+    position: absolute;
+    width: 130px !important;
+    height: 80px !important;
+    top: 80px;
+    right: 40px;
+    border-radius: 50%;
+    animation: grow-and-shrink 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.header .mysql img {
+    position: absolute;
+    width: 100px !important;
+    height: 100px !important;
+    top: 210px;
+    right: 40px;
+    border-radius: 50%;
+    animation: grow-and-shrink 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.header .jquery img {
+    position: absolute;
+    width: 80px !important;
+    height: 80px !important;
+    bottom: 30px;
     right: 50px;
     border-radius: 50%;
     animation: grow-and-shrink 4000ms;
@@ -468,6 +501,9 @@ body {
     .header .github img,
     .header .tailwind img,
     .header .git img,
+    .header .php img,
+    .header .mysql img,
+    .header .jquery img,
     .header .react img {
         width: 40px !important;
         height: 40px !important;
