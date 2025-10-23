@@ -279,7 +279,7 @@ body {
     width: 60px !important;
     height: 60px !important;
     top: -60px;
-    left: 250px;
+    left: 207px;
     border-radius: 50%;
     animation: grow-and-shrink 2500ms;
     animation-iteration-count: infinite;
@@ -302,8 +302,8 @@ body {
     position: absolute;
     width: 60px !important;
     height: 60px !important;
-    bottom: -10px;
-    left: 100px;
+    bottom: 44px;
+    left: 74px;
     border-radius: 50%;
     animation: grow-and-shrink 3500ms;
     animation-iteration-count: infinite;
@@ -327,7 +327,7 @@ body {
     width: 60px !important;
     height: 60px !important;
     bottom:-70px;
-    left: 300px;
+    left: 196px;
     border-radius: 50%;
     animation: grow-and-shrink 4000ms;
     animation-iteration-count: infinite;
