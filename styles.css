@@ -877,6 +877,52 @@ section {
     border: 1px solid var(--border-color);
 }
 
+.projects-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.more-projects-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 16px 40px;
+    font-size: 1.1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.more-projects-btn i {
+    transition: transform 0.3s ease;
+}
+
+.more-projects-btn:hover i[data-lang="ar"] {
+    transform: translateX(-5px);
+}
+
+.more-projects-btn:hover i[data-lang="en"] {
+    transform: translateX(5px);
+}
+
+.more-projects-btn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s ease, height 0.6s ease;
+}
+
+.more-projects-btn:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
 /* ===== Contact Section ===== */
 .contact-content {
     display: grid;
@@ -1066,6 +1112,11 @@ section {
     
     .skills-grid {
         grid-template-columns: 1fr;
+    }
+    
+    .more-projects-btn {
+        padding: 14px 32px;
+        font-size: 1rem;
     }
 }
 
